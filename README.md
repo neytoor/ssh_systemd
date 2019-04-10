@@ -10,7 +10,7 @@ Conectate vía ssh y gestiona servicios con systemd
 
 SSH o Secure Shell, es un protocolo de administración remota que permite a los usuarios controlar y modificar sus servidores remotos a través de Internet. 
 
-> [wikipedia.org/wiki/Secure_Shell)](https://es.wikipedia.org/wiki/Secure_Shell)
+> [wikipedia.org/wiki/Secure_Shell](https://es.wikipedia.org/wiki/Secure_Shell)
 
 ![logo](https://miro.medium.com/max/544/0*mqE9-fHbs78SweX_.png)
 
@@ -19,7 +19,7 @@ SSH o Secure Shell, es un protocolo de administración remota que permite a los 
 
 systemd es un conjunto de demonios o daemons de administración de sistema, bibliotecas y herramientas diseñados como una plataforma de administración y configuración central para interactuar con el núcleo del Sistema operativo GNU/Linux. 
 
-> [wikipedia.org/wiki/Systemd(https://es.wikipedia.org/wiki/Systemd)
+> [wikipedia.org/wiki/Systemd](https://es.wikipedia.org/wiki/Systemd)
 
 
 # ¿Cómo usar esta imagen?
