@@ -3,14 +3,14 @@ Conectate vía ssh y gestiona servicios con systemd
 
 # Referencia rápida
 
--	**Emby y el mundo de la multimedia**:  
+-	**Web Yonier Gómez**:  
 	[Sitio oficial de Neytor](https://www.neytor.com/)
   
 # ¿Qué es  ssh?
 
 SSH o Secure Shell, es un protocolo de administración remota que permite a los usuarios controlar y modificar sus servidores remotos a través de Internet. 
 
-> [wikipedia.org/wiki/Secure_Shell)(https://es.wikipedia.org/wiki/Secure_Shell)
+> [wikipedia.org/wiki/Secure_Shell)](https://es.wikipedia.org/wiki/Secure_Shell)
 
 ![logo](https://miro.medium.com/max/544/0*mqE9-fHbs78SweX_.png)
 
