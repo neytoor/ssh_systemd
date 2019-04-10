@@ -37,7 +37,7 @@ $ docker run  --name ssh -dti -p 2222:22 neytor/ssh_systemd
 ## ¿Cómo consultar la ip de mi contenedor?
 
 ```console
-$ docker inspec sshsystemd
+$ docker inspect sshsystemd
 ```
 
 ## Te invito a visitar mi web
