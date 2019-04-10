@@ -46,7 +46,7 @@ $ docker inspect sshsystemd
 $ docker run --name sshsystemd -dti -p 2222:22 --privileged neytor/ssh_systemd
 $ docker run --name sshsystemd -dti -p 22:22 --privileged neytor/ssh_systemd
 
-Opcionar: Habilitar contexto container_file_t
+Opcional: Habilitar contexto container_file_t
 ```
 
 ## Te invito a visitar mi web
