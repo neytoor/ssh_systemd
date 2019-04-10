@@ -27,12 +27,12 @@ systemd es un conjunto de demonios o daemons de administración de sistema, bibl
 ## Crear container y exponer el puerto 22
 
 ```console
-$ docker run --name sshsystemd -d -p 22:22 neytor/ssh_systemd
+$ docker run --name sshsystemd -dti -p 22:22 neytor/ssh_systemd
 ```
 ## Crear container y exponer el puerto 2222
 
 ```console
-$ docker run  --name ssh -d -p 2222:22 neytor/ssh_systemd
+$ docker run  --name ssh -dti -p 2222:22 neytor/ssh_systemd
 ```
 ## ¿Cómo consultar la ip de mi contenedor?
 
