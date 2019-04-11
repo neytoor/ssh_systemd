@@ -42,7 +42,7 @@ $ docker inspect sshsystemd
 
 ## Conectarse vía ssh desde mi terminal
 
-Para la conexión vía ssh se utiliza el usuario labo con password labo
+Para la conexión vía ssh se utiliza el usuario labo o root con password labo
 ```console
 $ ssh -i labo #ipdelamáquinadondecorremicontenedor -p 2222
 ```
