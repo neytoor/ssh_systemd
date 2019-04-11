@@ -46,7 +46,7 @@ Para la conexión vía ssh se utiliza el usuario labo con password labo
 ```console
 $ ssh -i labo #ipdelamáquinadondecorremicontenedor -p 2222
 
-Nota: El puerto 2222 puede ser modificado en el expose del contenedor que se hizo con la opción "-p"
+Nota: El puerto 2222 puede ser modificado en el expose del contenedor que se hizo en el docker run con la opción "-p"
 
 ```
 
