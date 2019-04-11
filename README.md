@@ -40,7 +40,16 @@ $ docker run  --name ssh -dti -p 2222:22 neytor/ssh_systemd
 $ docker inspect sshsystemd
 ```
 
-## ¿Utilizas Selinux? crear contenedor con privilegios
+## Conectarse vía ssh desde mi terminal
+
+Para la conexión vía ssh se utiliza el usuario labo con password labo
+```console
+$ ssh -i labo #ipdelamáquinadondecorremicontenedor -p 2222
+```
+
+Nota: El puerto 2222 puede ser modificado en el expose del contenedor que se hizo con la opción "-p"
+
+## ¿Utilizas Selinux? crear contenedor con privilegios 
 
 ```console
 $ docker run --name sshsystemd -dti -p 2222:22 --privileged neytor/ssh_systemd
@@ -49,5 +58,9 @@ $ docker run --name sshsystemd -dti -p 22:22 --privileged neytor/ssh_systemd
 Opcional: Habilitar contexto container_file_t
 ```
 
+## Variables para crear usuario y contraseña con opción -e
+En construcción
+
+
 ## Te invito a visitar mi web
-Puedes ver nuevos eventos en [https://www.neytor.com/](https://www.neytor.com).
+Puedes ver nuevos eventos en [https://www.neytor.com/](https://www.neytor.com)
