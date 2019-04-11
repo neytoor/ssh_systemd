@@ -45,9 +45,6 @@ $ docker inspect sshsystemd
 Para la conexión vía ssh se utiliza el usuario labo con password labo
 ```console
 $ ssh -i labo #ipdelamáquinadondecorremicontenedor -p 2222
-
-Nota: El puerto 2222 puede ser modificado en el expose del contenedor que se hizo en el docker run con la opción "-p"
-
 ```
 
 ## ¿Utilizas Selinux? crear contenedor con privilegios 
@@ -56,7 +53,7 @@ Nota: El puerto 2222 puede ser modificado en el expose del contenedor que se hiz
 $ docker run --name sshsystemd -dti -p 2222:22 --privileged neytor/ssh_systemd
 $ docker run --name sshsystemd -dti -p 22:22 --privileged neytor/ssh_systemd
 
-Opcional: Habilitar contexto container_file_t
+Opcional: Usted puede habilitar el contexto container_file_t
 ```
 
 ## Variables para crear usuario y contraseña con opción -e
